@@ -1,0 +1,8 @@
+mysql> create database dblab8;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> use dblab8;
+Database changed
+
+mysql> create table users(id int not null auto_increment,first_name varchar(100),last_name varchar(100),email varchar(100) unique ,password varchar(100),primary key(id));
+Query OK, 0 rows affected (0.02 sec)
